@@ -1,17 +1,16 @@
-
-/* Your CSS Code here. */
 .holder{
-	width: 100vw;
-	display: flex;
-	flex-wrap: wrap;
-
-	justify-content: space-between;
-	align-items: center;
-
-	row-gap:1vh;
+    display:grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: bisque;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
 }
+
 .item{
-	width: 200px;
-	height: 200px;
-	background-color: rgba(50, 100, 200, 0.5);
+    background-color: aqua;
+    height: 100px;
 }
